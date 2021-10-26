@@ -74,3 +74,5 @@ b = a;
 
 ## Proj 1a
 循环双链表 circular doubly linked list
+![捕获](https://user-images.githubusercontent.com/76512484/138862425-01216d3c-9b16-4e8c-bd91-800516025a08.PNG)
+
