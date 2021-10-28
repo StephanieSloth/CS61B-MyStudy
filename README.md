@@ -77,4 +77,5 @@ b = a;
 ![捕获](https://user-images.githubusercontent.com/76512484/138862425-01216d3c-9b16-4e8c-bd91-800516025a08.PNG)
 ## Link 4
 ![image](https://user-images.githubusercontent.com/76512484/139063623-9de9b27d-183f-4ab5-bd07-6334c33518c3.png)
-java中的array的大小给定，如果需要扩展，我们需要resize
+
+java中的array的大小给定，如果需要扩展，我们需要新建一个
