@@ -79,3 +79,6 @@ b = a;
 ![image](https://user-images.githubusercontent.com/76512484/139063623-9de9b27d-183f-4ab5-bd07-6334c33518c3.png)
 
 java中的array的大小给定，如果需要扩展，我们需要新建一个
+
+![image](https://user-images.githubusercontent.com/76512484/139182385-cddff614-8752-4e53-809e-7b36756cbc14.png)
+
