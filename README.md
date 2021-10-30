@@ -82,3 +82,8 @@ java中的array的大小给定，如果需要扩展，我们需要新建一个
 
 ![image](https://user-images.githubusercontent.com/76512484/139182385-cddff614-8752-4e53-809e-7b36756cbc14.png)
 
+linked list查改是O(n)复杂度，增删首尾是O(1)
+
+Array list查改是O(1)，增删O(n)
+
+
