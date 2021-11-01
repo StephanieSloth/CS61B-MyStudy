@@ -36,7 +36,7 @@ https://www.bilibili.com/video/BV1e541137Tc?spm_id_from=333.999.0.0
 总报错 “Failed to connect to github.com port 443: Timed out”
 
 通过代理和internet设置有关
-
+git_bash执行下这个就可以了 git config --global --unset http.proxy
 
 
 ## Week 2
