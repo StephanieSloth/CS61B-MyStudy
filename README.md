@@ -94,11 +94,15 @@ EX) all lists should be able to print themselves, how they do it is up to them.
 ⭐ Implementation inheritance (how): Tells the subclasses how they should behave.
 
 EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
-
-![image](https://user-images.githubusercontent.com/76512484/141981913-e59e4983-a08b-4ca2-a416-f09843fe6274.png)
+## Overload重载 & Override重写
+⭐ 每个重载的方法（或者构造函数）都必须有一个独一无二的参数类型列表。
 
 对于overload（有对应的signature，如SLList<String>），就只运行包含signature的函数
 
-而对于override，则是运行子类的函数（dynamic type）
-- 子类可以根据需要，定义特定于自己的行为。 也就是说子类能够根据需要实现父类的方法
+⭐ 重写是子类对父类的允许访问的方法的实现过程进行重新编写, 返回值和形参都不能改变
 
+对于override，则是运行子类的函数（dynamic type）
+
+子类可以根据需要，定义特定于自己的行为。 也就是说子类能够根据需要实现父类的方法
+
+![image](https://user-images.githubusercontent.com/76512484/141981913-e59e4983-a08b-4ca2-a416-f09843fe6274.png)
