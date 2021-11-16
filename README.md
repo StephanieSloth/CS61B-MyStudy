@@ -87,6 +87,14 @@ linked list查改是O(n)复杂度，增删首尾是O(1)
 Array list查改是O(1)，增删O(n)
 
 # Inheritance
+⭐ Interface inheritance (what): Simply tells what the subclasses should be able to do.
+
+EX) all lists should be able to print themselves, how they do it is up to them.
+
+⭐ Implementation inheritance (how): Tells the subclasses how they should behave.
+
+EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
+
 ![image](https://user-images.githubusercontent.com/76512484/141981913-e59e4983-a08b-4ca2-a416-f09843fe6274.png)
 
 对于overload（有对应的signature，如SLList<String>），就只运行包含signature的函数
