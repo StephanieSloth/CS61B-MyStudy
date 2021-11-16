@@ -89,7 +89,7 @@ Array list查改是O(1)，增删O(n)
 # Inheritance
 ![image](https://user-images.githubusercontent.com/76512484/141981913-e59e4983-a08b-4ca2-a416-f09843fe6274.png)
 
-    对于overload（有对应的signature，如SLList<String>），就只运行包含signature的函数
+对于overload（有对应的signature，如SLList<String>），就只运行包含signature的函数
 
-    而对于overwrite，则是运行子类的函数（dynamic type）
+而对于overwrite，则是运行子类的函数（dynamic type）
 
