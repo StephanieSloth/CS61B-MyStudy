@@ -99,5 +99,6 @@ EX) Lists should print themselves exactly this way: by getting each element in o
 
 对于overload（有对应的signature，如SLList<String>），就只运行包含signature的函数
 
-而对于overwrite，则是运行子类的函数（dynamic type）
+而对于override，则是运行子类的函数（dynamic type）
+- 子类可以根据需要，定义特定于自己的行为。 也就是说子类能够根据需要实现父类的方法
 
