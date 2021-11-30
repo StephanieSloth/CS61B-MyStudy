@@ -94,6 +94,15 @@ EX) all lists should be able to print themselves, how they do it is up to them.
 ⭐ Implementation inheritance (how): Tells the subclasses how they should behave.
 
 EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
+## Extends
+By using the extends keyword, subclasses inherit all members of the parent class. "Members" includes:
+
+- All instance and static variables
+- All methods
+- All nested classes
+
+constructors are not inherited, and private members cannot be directly accessed by subclasses.
+
 ## Overload重载 & Override重写
 ⭐ 每个重载的方法（或者构造函数）都必须有一个独一无二的参数类型列表。
 
@@ -106,3 +115,5 @@ EX) Lists should print themselves exactly this way: by getting each element in o
 子类可以根据需要，定义特定于自己的行为。 也就是说子类能够根据需要实现父类的方法
 
 ![image](https://user-images.githubusercontent.com/76512484/141981913-e59e4983-a08b-4ca2-a416-f09843fe6274.png)
+    
+
