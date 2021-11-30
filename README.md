@@ -103,6 +103,8 @@ By using the extends keyword, subclasses inherit all members of the parent class
 
 constructors are not inherited, and private members cannot be directly accessed by subclasses.
 
+⭐ 继承的子类也不能访问parent class的private属性（比如sentinel和size），如果要用parent的就要用标识符“super”转到上层
+
 ## Overload重载 & Override重写
 ⭐ 每个重载的方法（或者构造函数）都必须有一个独一无二的参数类型列表。
 
