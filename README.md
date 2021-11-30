@@ -104,6 +104,16 @@ By using the extends keyword, subclasses inherit all members of the parent class
 constructors are not inherited, and private members cannot be directly accessed by subclasses.
 
 ⭐ 继承的子类也不能访问parent class的private属性（比如sentinel和size），如果要用parent的就要用标识符“super”转到上层
+```java
+public static Dog maxDog(Dog d1, Dog d2) { ... } //假设一个函数，返回的是Dog
+
+Poodle frank = new Poodle("Frank", 5);
+Poodle frankJr = new Poodle("Frank Jr.", 15);
+
+Dog largerDog = maxDog(frank, frankJr);
+Poodle largerPoodle = maxDog(frank, frankJr); //does not compile! RHS has compile-time type Dog
+// maxDog返回的是Dog，但Dog is a poodle吗？不是！
+```
 
 ## Overload重载 & Override重写
 ⭐ 每个重载的方法（或者构造函数）都必须有一个独一无二的参数类型列表。
