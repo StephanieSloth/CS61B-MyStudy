@@ -94,6 +94,8 @@ EX) all lists should be able to print themselves, how they do it is up to them.
 ⭐ Implementation inheritance (how): Tells the subclasses how they should behave.
 
 EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
+
+⭐ 对于compile错误，是在还没有运行的时候检查有没有按照接口给对输入（exercise 4.3.3）
 ## Extends
 By using the extends keyword, subclasses inherit all members of the parent class. "Members" includes:
 
