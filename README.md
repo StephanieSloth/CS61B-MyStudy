@@ -96,6 +96,12 @@ EX) all lists should be able to print themselves, how they do it is up to them.
 EX) Lists should print themselves exactly this way: by getting each element in order and then printing them.
 
 ⭐ 对于compile错误，是在还没有运行的时候检查有没有按照接口给对输入（exercise 4.3.3）
+
+![1](https://user-images.githubusercontent.com/76512484/144340742-738e59a1-fce9-41d8-bccc-8c8f84afa7fe.PNG)
+
+![2](https://user-images.githubusercontent.com/76512484/144340753-6f90d339-e5d4-4b48-b0c6-dbc96f82ea80.PNG)
+
+
 ## Extends
 By using the extends keyword, subclasses inherit all members of the parent class. "Members" includes:
 
